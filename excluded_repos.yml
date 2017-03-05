@@ -1,0 +1,10 @@
+# These repositories can still be included in the monorepos
+# but no PRs would be made to the repos below
+
+repos: |
+    python/cpython
+    numpy/numpy
+    scipy/scipy
+    pandas/pandas
+    scikit-learn/scikit-learn
+

@@ -28,7 +28,13 @@ It is possible to make PR to the monorepo, which if accepted, would,
 
 3. Make PRs from individual forks by [@schoty-agent](https://github.com/schoty-agent) on behalf of the original contributor.
 
+## Excluding a repository
+
+If you want to exclude a repository from contributions originated from the Schoty project, please add the repository name to [`excluded_repos.yml`](./excluded_repos.yml).
+
 
 ## Conditions of use
 
 1. For now, the monorepos are limited to 500 included repositories
+
+
