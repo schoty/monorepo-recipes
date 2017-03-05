@@ -1,0 +1,20 @@
+# Please adapt the below parameters
+
+# The monorepo name. This file should be then copied to
+# recipes/<name>.yml
+# and the resulting location of the monorepo would be
+# scoty/<name>-monorepo
+name: example
+
+# The description of the resulting monorepo
+description: This is an example monorepo
+
+
+# Files larger than this value will not be included
+# The following suffixes can be used (K, M)
+max-file-size: 100K
+
+# A list of github repositories to include
+repos: |
+    user1/repo1
+    user2/repo2
