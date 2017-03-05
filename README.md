@@ -9,14 +9,14 @@ Submit a PR here to create a new monorepo out of existing Github repositories.
 
 ## PR submission procedure
 
- See the PR submission guidelines in [CONTRIBUTING.md](./CONTRIBUTING.md).
+ See the PR submission guidelines in [PULL_REQUEST_TEMPLATE.md](./PULL_REQUEST_TEMPLATE.md).
 
 
 ## How does it work
 
 Once a PR with a new monorepo submission is merged in this repository, the following would happen,
 
-1. All the repositories specified in the PR are forked by @schoty-agent
+1. All the repositories specified in the PR are forked by [@schoty-agent](https://github.com/schoty-agent)
 
 2. A monorepo containing the specified repositories is created under `schoty/<name>-monorepo`. The git history of individual repos is not preserved, the monorepo is created with a single commit containing all of the code. Large files are also not included.
 
@@ -26,7 +26,7 @@ It is possible to make PR to the monorepo, which if accepted, would,
 
 2. Apply these patches and commit modifications to individual forks
 
-3. Make PRs from individual forks by @schoty-agent on behalf of the original contributor.
+3. Make PRs from individual forks by [@schoty-agent](https://github.com/schoty-agent) on behalf of the original contributor.
 
 
 ## Conditions of use
