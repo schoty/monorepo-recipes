@@ -2,7 +2,7 @@
 
 Submit a PR here to create a new monorepo out of existing Github repositories.
 
-**Warning:** this project is still in an early development phase and some processing steps are not fully automated. We welcome any feedback and contributions, see,
+**Warning:** this project is still in an early development phase. We welcome any feedback and contributions, see,
  - https://github.com/schoty/monorepo-recipes/issues
  - https://github.com/schoty/schoty-builder
 
